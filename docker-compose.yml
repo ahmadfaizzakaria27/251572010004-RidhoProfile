@@ -1,0 +1,7 @@
+services:
+  web-profile:
+    image: ridhodevp/ridhoapp:latest
+    container_name: web-profile-ridho
+    ports:
+      - "8081:80"
+    restart: unless-stopped
